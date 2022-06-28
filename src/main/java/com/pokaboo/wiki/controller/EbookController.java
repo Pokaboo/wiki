@@ -23,6 +23,7 @@ public class EbookController {
         CommonResp<List<EbookQueryResp>> commonResp = new CommonResp<>();
         List<EbookQueryResp> ebookQueryRespList = ebookService.list(ebookQueryReq);
         commonResp.setContent(ebookQueryRespList);
+        int i = 1/0;
         return commonResp;
     }
 
