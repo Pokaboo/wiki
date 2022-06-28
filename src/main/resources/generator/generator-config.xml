@@ -40,6 +40,6 @@
                              targetPackage="com.pokaboo.wiki.mapper"
                              type="XMLMAPPER"/>
 
-        <table tableName="wikidemo" domainObjectName="WikidDemo"/>
+        <table tableName="ebook" domainObjectName="Ebook"/>
     </context>
 </generatorConfiguration>
